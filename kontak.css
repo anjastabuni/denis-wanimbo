@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* navbar */
+nav {
+  background-color: aqua;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.namabrend {
+  padding: 20px 50px 20px 50px;
+}
+.namabrend h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+  /* padding: 20px; */
+}
+
+.navbrend ul {
+  display: flex;
+}
+.navbrend ul li {
+  list-style: none;
+  padding: 20px 50px 20px 50px;
+}
+.navbrend ul li:hover {
+  cursor: pointer;
+  background-color: rgba(108, 95, 255, 0.518);
+  border-radius: 20px;
+  color: white;
+}
+.navbrend ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: darkblue;
+}
+.navbrend ul li a:hover {
+  color: white;
+}
+
+/* kontak */
+
+.kontak {
+  /* border: 1px solid black; */
+  width: 30%;
+  position: relative;
+  margin: auto;
+  padding: 50px 30px 20px 30px;
+  background-color: rgba(0, 255, 255, 0.251);
+}
+.kontak h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 8%;
+}
+
+.input label {
+  display: flex;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.input input {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  border: 1px solid rgb(6, 203, 203);
+  margin-bottom: 40px;
+  border-radius: 10px;
+
+  /* position: relative; */
+}
+.input textarea {
+  border-radius: 10px;
+  border: 1px solid rgb(6, 203, 203);
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  padding: 15px 50px 15px 50px;
+  margin-right: 20px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form input[type="reset"] {
+  padding: 15px 50px 15px 50px;
+  margin-right: 20px;
+  border: none;
+  background-color: darkred;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

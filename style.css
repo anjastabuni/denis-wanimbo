@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* navbar */
+nav {
+  background-color: aqua;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.namabrend {
+  padding: 20px 50px 20px 50px;
+}
+.namabrend h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+  /* padding: 20px; */
+}
+
+.navbrend ul {
+  display: flex;
+}
+.navbrend ul li {
+  list-style: none;
+  padding: 20px 50px 20px 50px;
+}
+.navbrend ul li:hover {
+  cursor: pointer;
+  background-color: rgba(108, 95, 255, 0.518);
+  border-radius: 20px;
+  color: white;
+}
+.navbrend ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: darkblue;
+}
+.navbrend ul li a:hover {
+  color: white;
+}
+
+/* section */
+section {
+  margin: 5%;
+  display: flex;
+  height: 655px;
+  align-items: center;
+}
+.konten {
+  width: 50%;
+}
+.konten h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.konten p {
+  font-size: 25px;
+}
+.konten a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: aqua;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: darkblue;
+}
+.gambar_profil {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+.gambar_profil img {
+  width: 70%;
+  border-radius: 5px;
+}
+
+/* footer */
+footer {
+  /* border: 1px solid red; */
+  background-color: black;
+}
+.footer {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
